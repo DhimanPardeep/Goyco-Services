@@ -204,27 +204,27 @@ export default function Navbar() {
                 data-bs-toggle="dropdown"
                 href="#"
               >
-                Ventures
+                Solutions
               </a>
 
               <ul className="dropdown-menu w-100 mt-0 border-0">
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                    href="https://workyard.in/"
                     target="_blank"
                   >
-                    Goyco Services
+                    Work Yard
                   </a>
                 </li>
 
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                    href="https://workyard.in/"
                     target="_blank"
                   >
-                    Goyco Products
+                    Coho Clothing
                   </a>
                 </li>
               </ul>
