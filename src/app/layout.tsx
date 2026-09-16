@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Goyco Services Private Limited",
   },
   description: "Goyco Services Private Limited",
+
   icons: {
     icon: `${basePath}/images/favicon.png`,
     shortcut: `${basePath}/images/favicon.png`,
