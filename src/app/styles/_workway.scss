@@ -1,0 +1,156 @@
+.how-we-work {
+  background: #f8fafc;
+}
+
+/* LEFT CARDS */
+.work-card {
+  display: flex;
+  background: #fff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+  transition: 0.35s;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(13, 59, 102, 0.12);
+}
+
+.work-image {
+  flex: 0 0 38%;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.work-card:hover img {
+  transform: scale(1.08);
+}
+
+.work-content {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.work-tag {
+  display: inline-block;
+  background: rgba(247, 148, 29, 0.15);
+  color: #f7941d;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.work-content h3 {
+  color: #082b52;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.work-content p {
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.work-content a {
+  color: #f7941d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* RIGHT SIDE */
+.sidebar-box {
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+}
+
+.sidebar-box h4 {
+  color: #082b52;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.sidebar-box h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+
+  width: 50px;
+  height: 3px;
+  border-radius: 50px;
+  background: #f7941d;
+}
+
+/* ACHIEVEMENTS */
+.achievement-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.achievement-item:last-child {
+  border: 0;
+}
+
+.achievement-item h2 {
+  color: #0d3b66;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.achievement-item p {
+  color: #6c757d;
+  margin: 0;
+}
+
+/* EXPERTISE */
+.category-card {
+  display: block;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+
+  background: linear-gradient(135deg, #0d3b66, #082b52);
+
+  transition: 0.35s;
+}
+
+.category-card:hover {
+  background: #f7941d;
+  transform: translateX(10px);
+  color: #fff;
+}
+
+/* MOBILE */
+@media (max-width: 991.98px) {
+  .work-card {
+    flex-direction: column;
+  }
+
+  .work-image {
+    height: 260px;
+  }
+
+  .work-content {
+    padding: 2rem;
+  }
+}

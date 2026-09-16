@@ -1,0 +1,124 @@
+@import "variables";
+.contact-section {
+  background: #f8fafc;
+}
+
+.contact-wrapper {
+  background: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.08);
+}
+
+/* LEFT SIDE */
+.contact-info {
+  color: $white;
+  padding: 3rem;
+  height: 100%;
+}
+
+.section-heading span {
+  color: $white;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.section-heading p {
+  opacity: 0.8;
+  margin-bottom: 2.5rem;
+}
+
+.office-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.office-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.12);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.3rem;
+  color: $white;
+  flex-shrink: 0;
+}
+
+.office-card h6 {
+  font-weight: 700;
+}
+
+.office-card p {
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.office-card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* GOOGLE MAP */
+.map-box {
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  height: 250px;
+}
+
+.map-box iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* RIGHT SIDE */
+.contact-form {
+  padding: 3rem;
+}
+
+.contact-form h3 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0d3b66;
+}
+
+.form-control {
+  height: 58px;
+  border-radius: 1rem;
+  border: 1px solid #e9ecef;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control:focus {
+  border-color: #f7941d;
+  box-shadow: 0 0 0 0.25rem rgba(247, 148, 29, 0.15);
+}
+
+.btn-goco {
+  background: #f7941d;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.btn-goco:hover {
+  background: #e78200;
+  color: #fff;
+  transform: translateY(-2px);
+}

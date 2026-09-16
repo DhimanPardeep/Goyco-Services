@@ -1,0 +1,145 @@
+@import "variables";
+.footer {
+  background: $primary-main;
+  color: $white;
+  padding: 5rem 0 2rem;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top right,
+    rgba(247, 148, 29, 0.12),
+    transparent 40%
+  );
+  pointer-events: none;
+}
+
+.footer-logo {
+  height: 55px;
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+
+.footer-desc {
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.footer h5 {
+  color: $white;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+  position: relative;
+}
+
+.footer h5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 45px;
+  height: 3px;
+  border-radius: 20px;
+  background: #f7941d;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: $white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  padding-left: 0.5rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  background: #f7941d;
+  transform: translateY(-4px);
+}
+
+.footer-contact p {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.newsletter input {
+  border: none;
+  border-radius: 50px 0 0 50px;
+  height: 50px;
+}
+
+.newsletter button {
+  background: #f7941d;
+  color: #fff;
+  border-radius: 0 50px 50px 0;
+  padding: 0 1.5rem;
+}
+
+.newsletter button:hover {
+  background: #e78200;
+  color: #fff;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.12);
+  margin: 4rem 0 2rem;
+}
+
+.footer-bottom {
+  gap: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #f7941d;
+}

@@ -1,0 +1,137 @@
+// Override Bootstrap variables BEFORE importing Bootstrap
+@import "variables";
+@import "fonts";
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background: $body-bg;
+  box-shadow: 0 3px 20px rgba(15, 23, 42, 0.08);
+
+  .navbar {
+    min-height: 80px;
+  }
+
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    font-weight: $nav-link-font-weight;
+    font-size: 1rem;
+    color: $body-color;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &.active {
+      color: $link-active-color;
+    }
+  }
+
+  .btn-login {
+    background: $secondary;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+      background: $secondary-hover;
+      color: #fff;
+    }
+  }
+
+  .dropdown-menu {
+    border: 0;
+    border-radius: 16px;
+    padding: 0.5rem;
+    min-width: 220px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+
+    .dropdown-item {
+      border-radius: 12px;
+      padding: 0.75rem 1rem;
+      font-weight: 500;
+
+      &:hover {
+        background: rgba(247, 119, 94, 0.1);
+        color: $primary;
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  padding: 0;
+  border: 0;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  i {
+    font-size: 2rem;
+    color: #1e293b;
+  }
+}
+
+.offcanvas {
+  width: 300px;
+
+  .offcanvas-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #334155;
+    padding: 0.85rem 0;
+
+    &:hover,
+    &.active {
+      color: $primary;
+    }
+  }
+}
+
+.hero-section {
+  padding: 120px 0;
+
+  h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1e293b;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: #64748b;
+  }
+}
+@import "slider";
+@import "toggler";
+@import "services";
+@import "clients";
+@import "contact";
+@import "footer";
+@import "workway";
+@import "ventures";
+@import "workprocess";
+@import "aboutus";
+@import "contactself";
+@import "achivements";

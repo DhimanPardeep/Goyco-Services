@@ -1,0 +1,53 @@
+@import "variables";
+.contact-card-self {
+  background: white;
+  padding: 15px 5px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+  transition: 0.4s;
+  height: 100%;
+}
+
+.contact-card-self i {
+  font-size: 45px;
+  color: #ff8a1f;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contact-card-self:hover {
+  transform: translateY(-10px);
+  background: $primary;
+  color: white;
+}
+
+.contact-card-self:hover i {
+  color: white;
+}
+
+.contact-form-self {
+  padding: 45px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.form-control-self {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-control-self:focus {
+  border-color: $primary;
+  box-shadow: 0 0 0 0.2rem rgba(10, 93, 170, 0.15);
+}
+
+.map-box-self {
+  height: 100%;
+  min-height: 560px;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
