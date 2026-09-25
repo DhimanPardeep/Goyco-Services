@@ -193,10 +193,10 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="about-us.html">
+              <Link className="nav-link" href="/about">
                 {" "}
                 About US{" "}
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -230,10 +230,10 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact-us.html">
+              <Link className="nav-link" href="/contact">
                 {" "}
                 Contact{" "}
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
