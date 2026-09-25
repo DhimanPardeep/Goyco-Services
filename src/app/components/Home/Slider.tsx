@@ -33,7 +33,7 @@ export default function Slider() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image
-              src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
+              src={`${basePath}/images/banner/1.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               fill
@@ -62,7 +62,7 @@ export default function Slider() {
           {/* Slide 2  */}
           <div className="carousel-item">
             <Image
-              src={`${basePath}/images/banner/Goyco-2.jpg.jpeg`}
+              src={`${basePath}/images/banner/2.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               fill
@@ -92,7 +92,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <Image
-              src={`${basePath}/images/banner/Goyco-3.jpg.jpeg`}
+              src={`${basePath}/images/banner/3.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               alt=""

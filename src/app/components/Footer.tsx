@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="col-lg-4 col-md-6">
             <div className="venture-logo">
               <Image
-                src={`${basePath}/images/Goyco1.png`}
+                src={`${basePath}/images/logo/Goyco1.png`}
                 className="img-fluid"
                 height={120}
                 width={200}
@@ -68,22 +68,7 @@ export default function Footer() {
             <ul className="footer-links">
               <li>
                 <a href="https://www.workyard.in" target="_blank">
-                  GSPL
-                </a>
-              </li>
-              <li>
-                <a href="https://www.workyard.in" target="_blank">
-                  GBSPL
-                </a>
-              </li>
-              <li>
-                <a href="https://www.workyard.in" target="_blank">
                   WorkYard
-                </a>
-              </li>
-              <li>
-                <a href="https://golphoen.com" target="_blank">
-                  Golphoen
                 </a>
               </li>
               <li>
@@ -103,7 +88,7 @@ export default function Footer() {
                 Chandigarh (India)
               </p>
               <p>
-                <i className="bi bi-building"></i>H.O Plot No, Business &
+                <i className="bi bi-building"></i>H.O Plot No 337, Business &
                 Indrustrial Park, Phase-2, Chandigarh (160002), India.
               </p>
 
@@ -140,7 +125,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
-          <p>© 2026 GOYCO. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} GOYCO. All Rights Reserved.</p>
 
           <div>
             <a href="#">Privacy Policy</a>

@@ -201,8 +201,8 @@ export default function ZohoContactForm() {
                   <div>
                     <h6>Chandigarh (India)</h6>
                     <p>
-                      H.O Plot No, Business & Indrustrial Park,
-                      <br />, Phase-2, Chandigarh (160002), India
+                      H.O Plot No 337, Business & Indrustrial Park, Phase-2,
+                      Chandigarh (160002), India
                     </p>
                   </div>
                 </div>

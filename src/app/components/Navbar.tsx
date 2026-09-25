@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link className="navbar-brand" href="/">
               <Image
                 className="goco-logo"
-                src={`${basePath}/images/Goyco.png`}
+                src={`${basePath}/images/logo/Goyco.png`}
                 alt="Goyco"
                 height={120}
                 width={180}
@@ -86,10 +86,10 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://workyard.in"
+                        href="https://neevspaces.com"
                         target="_blank"
                       >
-                        Coho Clothing
+                        Neevspaces
                       </Link>
                     </li>
                   </ul>
@@ -130,7 +130,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://workyard.in"
+                        href="https://books.zohosecure.in/portal/goycoservicesprivatelimited"
                         target="_blank"
                       >
                         Client Login
@@ -140,7 +140,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://accounts.zoho.in/signin?servicename=ZohoOne&signupurl=https://www.zoho.com/one/signup.html"
+                        href="https://one.zoho.in/zohoone/goycoservicespvtltd/home/cxapp-spaces/finance/payroll/portal/60035993790#/dashboard"
                         target="_blank"
                       >
                         Employee Login
@@ -150,7 +150,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://workyard.in"
+                        href="https://books.zohosecure.in/portal/goycoservicesprivatelimited"
                         target="_blank"
                       >
                         Vendor Login
@@ -169,7 +169,7 @@ export default function Navbar() {
             <Image
               className="goco-logo"
               style={{ left: 0 }}
-              src={`${basePath}/images/Goyco.png`}
+              src={`${basePath}/images/logo/Goyco.png`}
               height={120}
               width={200}
               alt="Goyco"
@@ -221,10 +221,10 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://workyard.in/"
+                    href="https://neevspaces.com"
                     target="_blank"
                   >
-                    Coho Clothing
+                    Neevspaces
                   </a>
                 </li>
               </ul>
@@ -259,7 +259,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://workyard.in"
+                    href="https://books.zohosecure.in/portal/goycoservicesprivatelimited"
                     target="_blank"
                   >
                     Client Login
@@ -269,7 +269,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://accounts.zoho.in/signin?servicename=ZohoOne&signupurl=https://www.zoho.com/one/signup.html"
+                    href="https://one.zoho.in/zohoone/goycoservicespvtltd/home/cxapp-spaces/finance/payroll/portal/60035993790#/dashboard"
                     target="_blank"
                   >
                     Employee Login
@@ -279,7 +279,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://workyard.in"
+                    href="https://books.zohosecure.in/portal/goycoservicesprivatelimited"
                     target="_blank"
                   >
                     Vendor Login

@@ -18,9 +18,11 @@ export default function WorkWay() {
                 <h3>Search for real requirement</h3>
 
                 <p>
-                  Search for a real requirement of cousumers &amp; country which
-                  we are capable of fullfilling &amp; pick up &amp; base from
-                  where we can start.
+                  Search for a real requirement of consumers & India (Bharat)
+                  which we are capable of fulfilling & pick up a base from where
+                  we can start.
+                  <br />
+                  <br />
                 </p>
               </div>
             </div>
@@ -33,9 +35,9 @@ export default function WorkWay() {
                 <h3>Give Our Special Effect</h3>
 
                 <p>
-                  Now we go deep into the real requirement and check what all
-                  the real issues in the market, what is the vacumm &amp; how we
-                  can provide best &amp; unique solutions for the requirements.
+                  Now we go deep into the real requirements and check what all
+                  are the real issues in the market, what is the vacuum & how we
+                  can provide best & unique solutions for the requirements.
                 </p>
               </div>
             </div>
@@ -50,6 +52,10 @@ export default function WorkWay() {
                 <p>
                   When the solution is ready to serve to the clients we start
                   doing the business.
+                  <br />
+                  <br />
+                  <br />
+                  <br /> <br />
                 </p>
               </div>
             </div>

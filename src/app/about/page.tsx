@@ -16,52 +16,62 @@ export default function About() {
             <div className="col-lg-6">
               <div className="about-image">
                 <img
-                  src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
+                  src={`${basePath}/images/about/Goyco.JPG`}
                   className="img-fluid rounded-4"
                   alt=""
                 />
+              </div>
+              <div className="row mt-5">
+                <div className="col-6">
+                  <div className="counter-card">
+                    <h3>15+</h3>
+
+                    <p>Experts Team</p>
+                  </div>
+                </div>
+
+                <div className="col-6">
+                  <div className="counter-card">
+                    <h3>650+</h3>
+
+                    <p>Served Clients</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             <div className="col-lg-6">
               <span className="section-title"> ABOUT US </span>
-
-              <h2 className="fw-bold mb-4">
-                SHORT BRIEFING OF WORKYARD CO-WORKING SPACES
-              </h2>
-
               <p>
-                WorkYard Coworking Spaces are Pocket Friendly Coworking Spaces
-                focusing on providing the Value for Money experience. WorkYard
-                Coworking Spaces were founded by our Founder i.e. Mr Hemant
-                Goyal in 2019.
+                What started as WorkYard in 2019 has grown into a vision much
+                bigger than where we began. WorkYard was born from a simple
+                belief: entrepreneurs/entities/individuals deserve more than
+                just a place to work. Our management had first-hand experience
+                of the realities of work culture, hospitality and the challenges
+                entrepreneurs face while building and running their businesses.
+                This experience led to the idea of creating a space where
+                entrepreneurs could find a vibrant work environment, essential
+                amenities, hospitality and practical support — all under one
+                roof. This vision became WorkYard, offering pocket-friendly and
+                vibrant coworking spaces designed around the evolving needs of
+                entrepreneurs and businesses.
               </p>
 
               <p>
-                WorkYard currently has 2 Premises operational, first one is in
-                Business & Industrial Park (eka Industrial Area), Phase 2,
-                Chandigarh (Since 2019) and second one is in Sector 5 (eka
-                Peermuchalla), Zirakpur, SAS Nagar. We are currently Operational
-                only in Chandigarh Tri-City.
+                With our management&apos;s background in the service and
+                hospitality industry, combined with the experience and insights
+                gained through WorkYard, we began looking beyond coworking and
+                exploring the wider requirements within the Real Estate Services
+                (REAS) sector.
               </p>
-
-              <div className="row mt-5">
-                <div className="col-6">
-                  <div className="counter-card">
-                    <h3>100+</h3>
-
-                    <p>Projects</p>
-                  </div>
-                </div>
-
-                <div className="col-6">
-                  <div className="counter-card">
-                    <h3>25+</h3>
-
-                    <p>Experts</p>
-                  </div>
-                </div>
-              </div>
+              <p>
+                This evolution led to the establishment of Goyco Services Pvt.
+                Ltd., with a vision to build and bring together multiple
+                solutions across the REAS industry. What began in our hometown
+                is now expanding PAN India and building diverse real estate
+                solutions specifically for the Indian market and its evolving
+                needs.
+              </p>
             </div>
           </div>
         </div>
@@ -72,9 +82,7 @@ export default function About() {
           <div className="text-center mb-5">
             <h2 className="fw-bold">Mission & Vision</h2>
 
-            <p className="text-muted">
-              Building technology that empowers businesses.
-            </p>
+            <p className="text-muted">REAS Mission & Vision</p>
           </div>
 
           <div className="row g-4">
@@ -89,9 +97,8 @@ export default function About() {
                 </div>
 
                 <p className="mt-2">
-                  Deliver innovative, scalable, and reliable software solutions
-                  that simplify business operations while creating long-term
-                  value for our clients.
+                  To deliver warm, quality hospitality that every Indian
+                  deserves.
                 </p>
               </div>
             </div>
@@ -107,16 +114,15 @@ export default function About() {
                 </div>
 
                 <p className="mt-2">
-                  To become a globally trusted technology partner recognized for
-                  innovation, excellence, and transforming businesses through
-                  digital solutions.
+                  To make comfortable, quality spaces accessible and affordable
+                  for everyone.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="team-section py-5">
+      {/* <section className="team-section py-5">
         <div className="container">
           <div className="text-center mb-5">
             <span className="section-tag">Our Team</span>
@@ -194,7 +200,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
