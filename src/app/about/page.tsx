@@ -42,7 +42,7 @@ export default function About() {
 
             <div className="col-lg-6">
               <span className="section-title"> ABOUT US </span>
-              <p>
+              <p className="mt-3">
                 What started as WorkYard in 2019 has grown into a vision much
                 bigger than where we began. WorkYard was born from a simple
                 belief: entrepreneurs/entities/individuals deserve more than

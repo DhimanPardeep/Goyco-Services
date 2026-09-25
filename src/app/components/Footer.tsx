@@ -89,7 +89,7 @@ export default function Footer() {
               </p>
               <p>
                 <i className="bi bi-building"></i>H.O Plot No 337, Business &
-                Indrustrial Park, Phase-2, Chandigarh (160002), India.
+                Industrial Park, Phase-2, Chandigarh (160002), India.
               </p>
 
               <ul className="list-unstyled m-0 p-0">

@@ -45,7 +45,7 @@ export default function Contact() {
 
                 <p>Chandigarh (India)</p>
                 <p>
-                  H.O Plot No 337, Business & Indrustrial Park, Phase-2,
+                  H.O Plot No 337, Business & Industrial Park, Phase-2,
                   Chandigarh (160002), India.
                 </p>
               </div>
@@ -58,7 +58,7 @@ export default function Contact() {
                 <h5>Business Hours</h5>
 
                 <p>
-                  Mon - Fri
+                  Mon - Sat
                   <br />
                   10:00 AM - 7:00 PM
                 </p>
